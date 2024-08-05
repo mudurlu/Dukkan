@@ -24,7 +24,8 @@ function App(): React.JSX.Element {
           options={{
             /*headerShown:false*/
             title : "Ürün",
-            headerStyle: {backgroundColor: "cornflowerblue",}
+            headerStyle: {backgroundColor: "cornflowerblue",},
+            headerTintColor: "white"
             }}/>
       </Stack.Navigator>
     </NavigationContainer>
