@@ -19,15 +19,18 @@ export default StyleSheet.create({
         flex: 1,
         padding: 5,
         justifyContent: "space-between"
+
     },
     title: {
         fontWeight : "bold",
-        fontSize : 16
+        fontSize : 16,
+        color: "black"
     },
     price: {
         textAlign: "right",
         fontSize: 14,
-        fontStyle: "italic"
+        fontStyle: "italic",
+        color: "green"
     }
 
 })

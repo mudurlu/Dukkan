@@ -16,8 +16,16 @@ function App(): React.JSX.Element {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name='ProductPage' component={Products}/>
-        <Stack.Screen name='Detail' component={Detail}/>
+        <Stack.Screen name='ProductPage' component={Products} options={{
+          title : "Dükkan",
+          headerStyle: {backgroundColor: "cornflowerblue"}, headerTintColor: "white"
+        }}/>
+        <Stack.Screen name='Detail' component={Detail} 
+          options={{
+            /*headerShown:false*/
+            title : "Ürün",
+            headerStyle: {backgroundColor: "cornflowerblue",}
+            }}/>
       </Stack.Navigator>
     </NavigationContainer>
   )
